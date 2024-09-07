@@ -41,7 +41,7 @@ export const MENU: MenuItem[] = [
         ]
     },
     {
-        key: 'apps-ecommerce', label: 'Ecommerce', isTitle: false, icon: 'uil-store', collapsed: true,
+        key: 'apps-ecommerce', label: 'Product/Service', isTitle: false, icon: 'uil-store', collapsed: true,
         children: [
             { key: 'ecommerce-products', label: 'Products', link: '/apps/ecommerce/products', parentKey: 'apps-ecommerce' },
             { key: 'ecommerce-details', label: 'Products Details', link: '/apps/ecommerce/productdetails', parentKey: 'apps-ecommerce' },
